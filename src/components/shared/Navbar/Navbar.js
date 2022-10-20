@@ -13,7 +13,8 @@ const Navbar = () => {
                         
                         <li><Link className='text-2xl text-oslogrey' to='/'>Home</Link></li>
                         <li><Link className='text-2xl text-oslogrey' to='/blog'>Blog</Link></li>
-                        <li><Link className='text-2xl text-oslogrey' to='/download'>Download</Link></li>
+                        <li><Link className='text-2xl text-oslogrey' to='/contact us'>Contact us </Link></li>
+                        
                     </ul>
                 </div>
                 <div className="form-control flex flex-row items-center ">
@@ -30,7 +31,7 @@ const Navbar = () => {
                 <ul className="menu menu-horizontal p-0">
                 <li><Link className='text-2xl text-oslogrey' to='/'>Home</Link></li>
                         <li><Link className='text-2xl text-oslogrey' to='/blog'>Blog</Link></li>
-                        <li><Link className='text-2xl text-oslogrey' to='/download'>Download</Link></li>
+                        <li><Link className='text-2xl text-oslogrey' to='/contact us'>Contact us</Link></li>
                 </ul>
             </div>
 
