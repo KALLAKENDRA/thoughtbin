@@ -21,13 +21,13 @@ const Home = () => {
 
       {/* <div className=" flex justify-evenly items-center  -mt-1000"> */}
 
-      <div className=" flex flex-col tablet:flex-row tablet:-mt-960  desktopSm:-mt-784 desktopMd:-mt-960 desktopLg:-mt-960 justify-evenly items-center  -mt-880">
+      <div className=" flex flex-col ml-10 relative z-20 tablet:flex-row tablet:-mt-960  desktopSm:-mt-784 desktopMd:-mt-960 desktopLg:-mt-960 justify-evenly items-center  ">
        <div><MobileFrame/></div>
         <div className=" mt-24 w-72 flex flex-col items-center relative z-10">
-          <h2 className="text-lg font-bold mb-10 mt-20 ">
+          <h2 className="text-lg font-bold mb-10 mt-56 ">
             India’s first free Education Platform
           </h2>
-          <p>
+          <p className="text-justify">
             Many novice writers tend to make a sharp distinction between content
             and style, thinking that a paper can be strong in one and weak in
             the other, but focusing on organization shows how content and style
