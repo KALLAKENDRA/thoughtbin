@@ -2,29 +2,32 @@ import React from "react";
 
 import apps from '../Assets/Apps/app-release.apk';
 import barq from "../Assets/Image/barq.png";
+import logo from '../Assets/Image/logo.png';
 import MobileFrame from "../MobileFrame/MobileFrame";
-import Navbar from "../shared/Navbar/Navbar";
 
 const Home = () => {
   return (
     <>
-      <div className="h-screen w-screen overflow-hidden bg-white">
+      <div className="h-600 w-screen overflow-hidden  bg-white">
         
-        <Navbar />
+        {/* <Navbar /> */}
         <div className="flex flex-col ">
-          <div className=" w-122 h-120 rounded-full  bg-gradient-to-r from-caribbeangreen to-easternblue shadow-3xl -ml-7"></div>
-          <div className=" w-122 h-120 rounded-full  bg-gradient-to-r from-caribbeangreen to-easternblue shadow-3xl mt-96"></div>
+          
+          <div className=" w-122 h-120 rounded-full  bg-gradient-to-r from-caribbeangreen to-easternblue shadow-3xl -ml-7 mt-32"></div>
+          <div className=" w-122 h-120 rounded-full  bg-gradient-to-r from-caribbeangreen to-easternblue shadow-3xl mt-60"></div>
          
-          <div className=" w-345  h-410 rounded-full  bg-gradient-to-r from-caribbeangreen to-easternblue shadow-3xl  ml-auto -mr-40 mt-10 rotate-45 "></div>
+          <div className=" w-345  h-410 rounded-full  bg-gradient-to-r from-caribbeangreen to-easternblue shadow-3xl  ml-auto -mr-40 -mt-44 rotate-45 "></div>
         </div>
       </div>
 
-      {/* <div className=" flex justify-evenly items-center  -mt-1000"> */}
 
-      <div className=" flex flex-col ml-10 relative z-20 tablet:flex-row tablet:-mt-960  desktopSm:-mt-784 desktopMd:-mt-960 desktopLg:-mt-960 justify-evenly items-center  ">
+      <div className=" flex flex-col items-center  relative z-20 tablet:flex-row  justify-evenly  -mt-630 ">
+      <div className= "flex flex-col items-center mt-10 tablet:-mt-2 lg:mt-10">
+      <img className="w-64" src={logo} alt="" />
        <div><MobileFrame/></div>
-        <div className=" mt-24 w-72 flex flex-col items-center relative z-10">
-          <h2 className="text-lg font-bold mb-10 mt-56 ">
+      </div>
+        <div className=" w-72  lg:w-604 flex flex-col items-center  relative z-10 lg:mt-10">
+          <h2 className="text-lg font-bold  mt-24 ">
             India’s first free Education Platform
           </h2>
           <p className="text-justify">
@@ -38,7 +41,7 @@ const Home = () => {
           </button>
          
           
-          <p className="text-topaz font-bold mt-14">Or Scan to Get App</p>
+          <p className="text-topaz font-bold mt-2">Or Scan to Get App</p>
           <img className="w-134 h-134 mt-4 mb-10" src={barq} alt="" />
         </div>
       </div>
